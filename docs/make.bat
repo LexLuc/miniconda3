@@ -9,8 +9,8 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 
-REM set BUILDDIR=build
-set BUILDDIR=..
+set BUILDDIR=build
+REM set BUILDDIR=..
 
 set SPHINXPROJ=conda_note
 

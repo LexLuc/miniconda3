@@ -52,20 +52,20 @@ mini版本：:ref:`Miniconda <miniconda-glossary>`， .. 跳转到相同文档�
 
 
 在已经安装python及附带库的机器上安装
-=================================
+=====================================
 
 无需卸载电脑上原有的 Python 环境，安装步骤大致与普通安装相同，
 额外需要做的只有将 Python 的 conda 添加到 PATH 环境，无需设置 
 PYTHONPATH 环境变量。
 
 检查 conda 是否成功添加到系统 PATH 变量
---------------------------------------------------------
+-------------------------------------------------------------
 
 * Mac 和 Linux 系统打开 terminal 并输入``echo $PATH``
 * Windows 系统打开 cmd 并输入 ``echo %PATH%``
 
 查看哪个 Python 被设为默认应用
--------------------------------------------
+------------------------------------------------
 
 * Mac 和 Linux 系统打开 terminal 并输入``which python``
 * Windows 系统打开 cmd 并输入 ``where python``
@@ -77,7 +77,7 @@ PYTHONPATH 环境变量。
 
 .. toctree::
    :maxdepth: 1
-   :hidden:           .. 该 toctree 的内容不显示在页面中
+   :hidden:
    
    download
    regular-install-win
